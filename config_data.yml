@@ -46,7 +46,7 @@ inputs:
       SERIES: 'Series'
       REF_AREA|KG: ''
     drop_dimensions: SOURCE_DETAIL
-    dsd: KG.DSD_KG.1.6.2020.11.27.xml
+    dsd: SDG_DSD.KG.xml
     import_translation_keys: true
   - class: InputYamlMdMeta
     # This describes the meta files, relative to the "src_dir" indicated above.
@@ -79,7 +79,7 @@ translations:
   - class: TranslationInputYaml
     source: translations
   - class: TranslationInputSdmx
-    source: KG.DSD_KG.1.6.2020.11.27.xml
+    source: SDG_DSD.KG.xml
 
 # Reporting status extra fields
 # -----------------------------
