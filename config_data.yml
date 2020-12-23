@@ -44,6 +44,7 @@ inputs:
     drop_dimensions: SOURCE_DETAIL
     dsd: SDG_DSD.KG.xml
     import_translation_keys: true
+    drop_singleton_dimensions: false
   - class: InputYamlMdMeta
     # This describes the meta files, relative to the "src_dir" indicated above.
     path_pattern: meta/*-*.md
