@@ -117,7 +117,7 @@ indicator_options:
     non_disaggregation_columns:
         - Year
         - Value
-        - Frequency of observation
-        - Reporting type
-        - SDG Series
-        - Unit of measure
+        - FREQ
+        - REPORTING_TYPE
+        - SERIES
+        - UNIT_MEASURE
