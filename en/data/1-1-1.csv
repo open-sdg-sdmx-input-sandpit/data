@@ -1,16 +1,16 @@
-Year,Frequency of observation,Reporting type,Series,Reference area,Units,Value
-2007,Annual,National,Proportion of population below international poverty line,,Percent,0.13
-2008,Annual,National,Proportion of population below international poverty line,,Percent,0.09
-2009,Annual,National,Proportion of population below international poverty line,,Percent,0.29
-2010,Annual,National,Proportion of population below international poverty line,,Percent,0.28
-2011,Annual,National,Proportion of population below international poverty line,,Percent,0.01
-2012,Annual,National,Proportion of population below international poverty line,,Percent,0.28
-2013,Annual,National,Proportion of population below international poverty line,,Percent,0.34
-2014,Annual,National,Proportion of population below international poverty line,,Percent,0.07
-2015,Annual,National,Proportion of population below international poverty line,,Percent,0.06
-2016,Annual,National,Proportion of population below international poverty line,,Percent,0.21
-2017,Annual,National,Proportion of population below international poverty line,,Percent,0.31
-2018,Annual,National,Proportion of population below international poverty line,,Percent,0.28
+Year,Frequency of observation,Reporting type,SDG Series,Reference area,Unit of measure,Value
+2007,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.13
+2008,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.09
+2009,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.29
+2010,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.28
+2011,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.01
+2012,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.28
+2013,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.34
+2014,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.07
+2015,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.06
+2016,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.21
+2017,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.31
+2018,Annual,National,Proportion of population below international poverty line,Kyrgyzstan,Percent,0.28
 2007,Annual,National,Proportion of population below international poverty line,Batken,Percent,0.0
 2008,Annual,National,Proportion of population below international poverty line,Batken,Percent,0.27
 2009,Annual,National,Proportion of population below international poverty line,Batken,Percent,0.0

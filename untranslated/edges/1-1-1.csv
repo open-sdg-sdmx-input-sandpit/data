@@ -1,3 +1,5 @@
 From,To
 concept.FREQ,concept.REPORTING_TYPE
-concept.REPORTING_TYPE,concept.REF_AREA
+concept.REPORTING_TYPE,concept.SERIES
+concept.SERIES,concept.REF_AREA
+concept.REF_AREA,concept.UNIT_MEASURE
