@@ -42,7 +42,7 @@ inputs:
   - class: InputSdmxMl_Multiple
     path_pattern: data/*.xml
     drop_dimensions: SOURCE_DETAIL
-    dsd: SDG_DSD.KG.xml
+    dsd: SDG_DSD.KG.1.6.xml
     import_translation_keys: true
     drop_singleton_dimensions: false
   - class: InputYamlMdMeta
@@ -76,7 +76,7 @@ translations:
   - class: TranslationInputYaml
     source: translations
   - class: TranslationInputSdmx
-    source: SDG_DSD.KG.xml
+    source: SDG_DSD.KG.1.6.xml
 
 # Reporting status extra fields
 # -----------------------------
