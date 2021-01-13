@@ -121,3 +121,10 @@ indicator_options:
         - REPORTING_TYPE
         - SERIES
         - UNIT_MEASURE
+
+
+indicator_downloads:
+  - button_label: custom.download_source_sdmx
+    source_pattern: data/*.xml
+    indicator_id_pattern: (.*)
+    output_folder: data-sdmx
