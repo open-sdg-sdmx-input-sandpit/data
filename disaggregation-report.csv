@@ -1,7 +1,8 @@
 Disaggregation,ru,Number of indicators,Number of values
-Frequency of observation,Частота наблюдений,2,1
-Reference area,Территория,2,10
-Reporting type,Тип отчетности,2,1
-SDG Series,Ряды ЦУР,2,2
-Sex,Пол,1,2
-Unit of measure,Единица измерения,2,2
+Age,Возраст,1,4
+Frequency of observation,Частота наблюдений,3,1
+Reference area,Территория,3,10
+Reporting type,Тип отчетности,3,1
+SDG Series,Ряды ЦУР,3,3
+Sex,Пол,2,2
+Unit of measure,Единица измерения,3,2
