@@ -113,11 +113,3 @@ docs_intro: This is a list of examples of endpoints and output that are
 # The URL here should have [id] instead of the indicator ID.
 #docs_indicator_url: https://my-github-org/my-site-repository/[id]
 
-indicator_options:
-    non_disaggregation_columns:
-        - Year
-        - Value
-        - FREQ
-        - REPORTING_TYPE
-        - SERIES
-        - UNIT_MEASURE
