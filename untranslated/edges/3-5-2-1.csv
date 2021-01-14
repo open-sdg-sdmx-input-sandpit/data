@@ -1,6 +1,6 @@
 From,To
 concept.FREQ,concept.REPORTING_TYPE
 concept.REPORTING_TYPE,concept.SERIES
-concept.SERIES,concept.REF_AREA
-concept.REF_AREA,concept.UNIT_MEASURE
+concept.SERIES,concept.UNIT_MEASURE
+concept.UNIT_MEASURE,concept.REF_AREA
 concept.UNIT_MEASURE,concept.SEX

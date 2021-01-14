@@ -1,5 +1,5 @@
 From,To
 Frequency of observation,Reporting type
 Reporting type,SDG Series
-SDG Series,Reference area
-Reference area,Unit of measure
+SDG Series,Unit of measure
+Unit of measure,Reference area

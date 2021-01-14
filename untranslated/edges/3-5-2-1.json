@@ -1,1 +1,1 @@
-{"From":["concept.FREQ","concept.REPORTING_TYPE","concept.SERIES","concept.REF_AREA","concept.UNIT_MEASURE"],"To":["concept.REPORTING_TYPE","concept.SERIES","concept.REF_AREA","concept.UNIT_MEASURE","concept.SEX"]}
+{"From":["concept.FREQ","concept.REPORTING_TYPE","concept.SERIES","concept.UNIT_MEASURE","concept.UNIT_MEASURE"],"To":["concept.REPORTING_TYPE","concept.SERIES","concept.UNIT_MEASURE","concept.REF_AREA","concept.SEX"]}
