@@ -45,6 +45,8 @@ inputs:
     dsd: SDG_DSD.KG.1.6.xml
     import_translation_keys: true
     drop_singleton_dimensions: false
+    dimension_map:
+      REF_AREA|KG: ''
   - class: InputYamlMdMeta
     # This describes the meta files, relative to the "src_dir" indicated above.
     path_pattern: meta/*-*.md
@@ -57,6 +59,8 @@ inputs:
     # need to change this setting. It is intended for sites where the data needs
     # to be "built" before being processed by sdg-build.
     git_data_dir: data
+  - class: InputYamlMeta
+    path_pattern: yamlmeta/*-*.yml
 
 # Translations
 # ------------
