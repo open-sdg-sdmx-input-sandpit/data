@@ -1,5 +1,5 @@
 Indicator,Disaggregations,Number of disaggregations
-#1-1-1,"FREQ, REPORTING_TYPE, REF_AREA",3
-#1-2-1,"FREQ, REPORTING_TYPE, REF_AREA, SEX, AGE",5
-#3-5-2-1,"FREQ, REPORTING_TYPE, REF_AREA, SEX",4
-#9-1-2,"FREQ, REPORTING_TYPE, COMPOSITE_BREAKDOWN",3
+#1-1-1,"Frequency of observation, Reporting type, Reference area",3
+#1-2-1,"Frequency of observation, Reporting type, Reference area, Sex, Age",5
+#3-5-2-1,"Frequency of observation, Reporting type, Reference area, Sex",4
+#9-1-2,"Frequency of observation, Reporting type, Composite breakdown",3
