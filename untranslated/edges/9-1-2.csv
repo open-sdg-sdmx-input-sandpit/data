@@ -1,1 +1,5 @@
 From,To
+concept.FREQ,concept.REPORTING_TYPE
+concept.REPORTING_TYPE,concept.SERIES
+concept.SERIES,concept.UNIT_MEASURE
+concept.UNIT_MEASURE,concept.COMPOSITE_BREAKDOWN
