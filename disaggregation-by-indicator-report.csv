@@ -1,5 +1,5 @@
 Indicator,Disaggregations,Number of disaggregations
-#1-1-1,"Frequency of observation, Reporting type, SDG Series, Reference area, Unit of measure",5
-#1-2-1,"Frequency of observation, Reporting type, SDG Series, Reference area, Unit of measure, Sex, Age",7
-#3-5-2-1,"Frequency of observation, Reporting type, SDG Series, Reference area, Unit of measure, Sex",6
-#9-1-2,"Frequency of observation, Reporting type, SDG Series, Unit of measure, Composite breakdown",5
+#1-1-1,"Frequency of observation, Reporting type, Reference area",3
+#1-2-1,"Frequency of observation, Reporting type, Reference area, Sex, Age",5
+#3-5-2-1,"Frequency of observation, Reporting type, Reference area, Sex",4
+#9-1-2,"Frequency of observation, Reporting type, Composite breakdown",3
