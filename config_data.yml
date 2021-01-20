@@ -46,6 +46,8 @@ inputs:
     import_translation_keys: true
     drop_singleton_dimensions: false
     dimension_map:
+      UNIT_MEASURE: 'Units'
+      SERIES: 'Series'
       REF_AREA|KG: ''
   - class: InputYamlMdMeta
     # This describes the meta files, relative to the "src_dir" indicated above.
