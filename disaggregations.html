@@ -1,6 +1,6 @@
 
         <!DOCTYPE html>
-        <html>
+        <html lang="en">
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,16 @@
             <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/css/theme.bootstrap_4.min.css" integrity="sha256-vFn0MM8utz2N3JoNzRxHXUtfCJLz5Pb9ygBY2exIaqg=" crossorigin="anonymous" />
+            <style>
+                .btn-primary {
+                    background-color: #1D70B8;
+                    border-color: #1D70B8;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+            </style>
         </head>
         <body>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,45 +52,38 @@
   <thead>
     <tr style="text-align: right;">
       <th>Disaggregation</th>
-      <th>ru</th>
       <th>Number of indicators</th>
       <th>Number of values</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="disaggregation--conceptage.html">Age</a></td>
-      <td>Возраст</td>
+      <td><a href="disaggregation--age.html">AGE</a></td>
       <td>1</td>
       <td>4</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--conceptcomposite_breakdown.html">Composite breakdown</a></td>
-      <td>Составная разбивка</td>
+      <td><a href="disaggregation--composite_breakdown.html">COMPOSITE_BREAKDOWN</a></td>
       <td>1</td>
       <td>5</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--conceptfreq.html">Frequency of observation</a></td>
-      <td>Частота наблюдений</td>
+      <td><a href="disaggregation--freq.html">FREQ</a></td>
       <td>4</td>
       <td>1</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--conceptref_area.html">Reference area</a></td>
-      <td>Территория</td>
+      <td><a href="disaggregation--ref_area.html">REF_AREA</a></td>
       <td>3</td>
       <td>9</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--conceptreporting_type.html">Reporting type</a></td>
-      <td>Тип отчетности</td>
+      <td><a href="disaggregation--reporting_type.html">REPORTING_TYPE</a></td>
       <td>4</td>
       <td>1</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--conceptsex.html">Sex</a></td>
-      <td>Пол</td>
+      <td><a href="disaggregation--sex.html">SEX</a></td>
       <td>2</td>
       <td>2</td>
     </tr>
@@ -109,22 +112,22 @@
   <tbody>
     <tr>
       <td>#1-1-1</td>
-      <td><a href="disaggregation--conceptfreq.html">Frequency of observation</a>, <a href="disaggregation--conceptreporting_type.html">Reporting type</a>, <a href="disaggregation--conceptref_area.html">Reference area</a></td>
+      <td><a href="disaggregation--freq.html">FREQ</a>, <a href="disaggregation--reporting_type.html">REPORTING_TYPE</a>, <a href="disaggregation--ref_area.html">REF_AREA</a></td>
       <td>3</td>
     </tr>
     <tr>
       <td>#1-2-1</td>
-      <td><a href="disaggregation--conceptfreq.html">Frequency of observation</a>, <a href="disaggregation--conceptreporting_type.html">Reporting type</a>, <a href="disaggregation--conceptref_area.html">Reference area</a>, <a href="disaggregation--conceptsex.html">Sex</a>, <a href="disaggregation--conceptage.html">Age</a></td>
+      <td><a href="disaggregation--freq.html">FREQ</a>, <a href="disaggregation--reporting_type.html">REPORTING_TYPE</a>, <a href="disaggregation--ref_area.html">REF_AREA</a>, <a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--age.html">AGE</a></td>
       <td>5</td>
     </tr>
     <tr>
       <td>#3-5-2-1</td>
-      <td><a href="disaggregation--conceptfreq.html">Frequency of observation</a>, <a href="disaggregation--conceptreporting_type.html">Reporting type</a>, <a href="disaggregation--conceptref_area.html">Reference area</a>, <a href="disaggregation--conceptsex.html">Sex</a></td>
+      <td><a href="disaggregation--freq.html">FREQ</a>, <a href="disaggregation--reporting_type.html">REPORTING_TYPE</a>, <a href="disaggregation--ref_area.html">REF_AREA</a>, <a href="disaggregation--sex.html">SEX</a></td>
       <td>4</td>
     </tr>
     <tr>
       <td>#9-1-2</td>
-      <td><a href="disaggregation--conceptfreq.html">Frequency of observation</a>, <a href="disaggregation--conceptreporting_type.html">Reporting type</a>, <a href="disaggregation--conceptcomposite_breakdown.html">Composite breakdown</a></td>
+      <td><a href="disaggregation--freq.html">FREQ</a>, <a href="disaggregation--reporting_type.html">REPORTING_TYPE</a>, <a href="disaggregation--composite_breakdown.html">COMPOSITE_BREAKDOWN</a></td>
       <td>3</td>
     </tr>
   </tbody>
