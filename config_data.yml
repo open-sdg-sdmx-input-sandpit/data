@@ -41,7 +41,8 @@ src_dir: ''
 inputs:
   - class: InputSdmxMl_Multiple
     path_pattern: data/*.xml
-    drop_dimensions: SOURCE_DETAIL
+    drop_dimensions: 
+      - SOURCE_DETAIL
     dsd: SDG_DSD.KG.1.6.xml
     #import_translation_keys: true
     import_codes: true
