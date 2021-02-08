@@ -1,7 +1,10 @@
-Disaggregation,ru,Number of indicators,Number of values
-Age,Возраст,1,4
-Composite breakdown,Составная разбивка,1,5
-Frequency of observation,Частота наблюдений,4,1
-Reference area,Территория,3,9
-Reporting type,Тип отчетности,4,1
-Sex,Пол,2,2
+Disaggregation,Number of indicators,Number of values
+AGE,1,4
+COMPOSITE_BREAKDOWN,1,5
+FREQ,4,1
+NATURE,4,1
+OBS_STATUS,4,1
+REF_AREA,3,9
+REPORTING_TYPE,4,1
+SEX,2,2
+UNIT_MULT,4,2
