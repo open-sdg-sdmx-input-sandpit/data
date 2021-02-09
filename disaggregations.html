@@ -1,16 +1,29 @@
 
         <!DOCTYPE html>
-        <html>
+        <html lang="en">
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
-            <title>SDG data build documentation - Disaggregation report</title>
+            <title>Disaggregation report - SDG data build documentation</title>
 
-            <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/css/theme.bootstrap_4.min.css" integrity="sha256-vFn0MM8utz2N3JoNzRxHXUtfCJLz5Pb9ygBY2exIaqg=" crossorigin="anonymous" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #1D70B8;
+                    border-color: #1D70B8;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+            </style>
         </head>
         <body>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,82 +36,101 @@
                     <h1 style="margin:20px 0">Disaggregation report</h1>
                     <div>
                         
-        <div class="list-group list-group-horizontal mb-4">
-            <a class="list-group-item list-group-item-action" href="#by-disaggregation">By disaggregation</a>
-            <a class="list-group-item list-group-item-action" href="#by-indicator">By indicator</a>
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#by-disaggregation">By disaggregation</a></li>
+                <li><a href="#by-indicator">By indicator</a></li>
+            </ul>
         </div>
         <div>
-            <h2 id="by-disaggregation">By disaggregation</h2>
+            <h2 id="by-disaggregation" tabindex="-1">By disaggregation</h2>
             
         <div class="my-3">
-            <a href="disaggregation-report.csv" class="btn btn-primary">Download CSV</a>
+            <a href="disaggregation-report.csv" role="button" class="btn btn-primary" aria-describedby="disaggregation-report">Download CSV of disaggregations</a>
+            <div id="disaggregation-report" class="download-info">Size: 174 Bytes</div>
         </div>
         
             
                 <div class="total-rows">
-                    Total rows: <span class="total">6</span>
+                    Total rows: <span class="total">9</span>
                 </div>
-                <table border="1" class="dataframe table table-striped table-bordered tablesorter">
+                <table border="1" class="dataframe table table-striped table-bordered" id="disaggregation-table">
   <thead>
     <tr style="text-align: right;">
       <th>Disaggregation</th>
-      <th>ru</th>
       <th>Number of indicators</th>
       <th>Number of values</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="disaggregation--conceptage.html">Age</a></td>
-      <td>Возраст</td>
+      <td><a href="disaggregation--age.html">AGE</a></td>
       <td>1</td>
       <td>4</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--conceptcomposite_breakdown.html">Composite breakdown</a></td>
-      <td>Составная разбивка</td>
+      <td><a href="disaggregation--composite_breakdown.html">COMPOSITE_BREAKDOWN</a></td>
       <td>1</td>
       <td>5</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--conceptfreq.html">Frequency of observation</a></td>
-      <td>Частота наблюдений</td>
+      <td><a href="disaggregation--freq.html">FREQ</a></td>
       <td>4</td>
       <td>1</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--conceptref_area.html">Reference area</a></td>
-      <td>Территория</td>
+      <td><a href="disaggregation--nature.html">NATURE</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--obs_status.html">OBS_STATUS</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--ref_area.html">REF_AREA</a></td>
       <td>3</td>
       <td>9</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--conceptreporting_type.html">Reporting type</a></td>
-      <td>Тип отчетности</td>
+      <td><a href="disaggregation--reporting_type.html">REPORTING_TYPE</a></td>
       <td>4</td>
       <td>1</td>
     </tr>
     <tr>
-      <td><a href="disaggregation--conceptsex.html">Sex</a></td>
-      <td>Пол</td>
+      <td><a href="disaggregation--sex.html">SEX</a></td>
       <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--unit_mult.html">UNIT_MULT</a></td>
+      <td>4</td>
       <td>2</td>
     </tr>
   </tbody>
 </table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['disaggregation-table'] = [{"Disaggregation":"<a href=\"disaggregation--age.html\">AGE<\/a>","Number of indicators":1,"Number of values":4},{"Disaggregation":"<a href=\"disaggregation--composite_breakdown.html\">COMPOSITE_BREAKDOWN<\/a>","Number of indicators":1,"Number of values":5},{"Disaggregation":"<a href=\"disaggregation--freq.html\">FREQ<\/a>","Number of indicators":4,"Number of values":1},{"Disaggregation":"<a href=\"disaggregation--nature.html\">NATURE<\/a>","Number of indicators":4,"Number of values":1},{"Disaggregation":"<a href=\"disaggregation--obs_status.html\">OBS_STATUS<\/a>","Number of indicators":4,"Number of values":1},{"Disaggregation":"<a href=\"disaggregation--ref_area.html\">REF_AREA<\/a>","Number of indicators":3,"Number of values":9},{"Disaggregation":"<a href=\"disaggregation--reporting_type.html\">REPORTING_TYPE<\/a>","Number of indicators":4,"Number of values":1},{"Disaggregation":"<a href=\"disaggregation--sex.html\">SEX<\/a>","Number of indicators":2,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--unit_mult.html\">UNIT_MULT<\/a>","Number of indicators":4,"Number of values":2}];
+            </script>
+            
         </div>
         <div>
-            <h2 id="by-indicator">By indicator</h2>
+            <h2 id="by-indicator" tabindex="-1">By indicator</h2>
             
         <div class="my-3">
-            <a href="disaggregation-by-indicator-report.csv" class="btn btn-primary">Download CSV</a>
+            <a href="disaggregation-by-indicator-report.csv" role="button" class="btn btn-primary" aria-describedby="disaggregation-by-indicator-report">Download CSV of indicators</a>
+            <div id="disaggregation-by-indicator-report" class="download-info">Size: 372 Bytes</div>
         </div>
         
             
                 <div class="total-rows">
                     Total rows: <span class="total">4</span>
                 </div>
-                <table border="1" class="dataframe table table-striped table-bordered tablesorter">
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicator-table">
   <thead>
     <tr style="text-align: right;">
       <th>Indicator</th>
@@ -109,37 +141,54 @@
   <tbody>
     <tr>
       <td>#1-1-1</td>
-      <td><a href="disaggregation--conceptfreq.html">Frequency of observation</a>, <a href="disaggregation--conceptreporting_type.html">Reporting type</a>, <a href="disaggregation--conceptref_area.html">Reference area</a></td>
-      <td>3</td>
+      <td><a href="disaggregation--obs_status.html">OBS_STATUS</a>, <a href="disaggregation--unit_mult.html">UNIT_MULT</a>, <a href="disaggregation--nature.html">NATURE</a>, <a href="disaggregation--freq.html">FREQ</a>, <a href="disaggregation--reporting_type.html">REPORTING_TYPE</a>, <a href="disaggregation--ref_area.html">REF_AREA</a></td>
+      <td>6</td>
     </tr>
     <tr>
       <td>#1-2-1</td>
-      <td><a href="disaggregation--conceptfreq.html">Frequency of observation</a>, <a href="disaggregation--conceptreporting_type.html">Reporting type</a>, <a href="disaggregation--conceptref_area.html">Reference area</a>, <a href="disaggregation--conceptsex.html">Sex</a>, <a href="disaggregation--conceptage.html">Age</a></td>
-      <td>5</td>
+      <td><a href="disaggregation--obs_status.html">OBS_STATUS</a>, <a href="disaggregation--unit_mult.html">UNIT_MULT</a>, <a href="disaggregation--nature.html">NATURE</a>, <a href="disaggregation--freq.html">FREQ</a>, <a href="disaggregation--reporting_type.html">REPORTING_TYPE</a>, <a href="disaggregation--ref_area.html">REF_AREA</a>, <a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>8</td>
     </tr>
     <tr>
       <td>#3-5-2-1</td>
-      <td><a href="disaggregation--conceptfreq.html">Frequency of observation</a>, <a href="disaggregation--conceptreporting_type.html">Reporting type</a>, <a href="disaggregation--conceptref_area.html">Reference area</a>, <a href="disaggregation--conceptsex.html">Sex</a></td>
-      <td>4</td>
+      <td><a href="disaggregation--obs_status.html">OBS_STATUS</a>, <a href="disaggregation--unit_mult.html">UNIT_MULT</a>, <a href="disaggregation--nature.html">NATURE</a>, <a href="disaggregation--freq.html">FREQ</a>, <a href="disaggregation--reporting_type.html">REPORTING_TYPE</a>, <a href="disaggregation--ref_area.html">REF_AREA</a>, <a href="disaggregation--sex.html">SEX</a></td>
+      <td>7</td>
     </tr>
     <tr>
       <td>#9-1-2</td>
-      <td><a href="disaggregation--conceptfreq.html">Frequency of observation</a>, <a href="disaggregation--conceptreporting_type.html">Reporting type</a>, <a href="disaggregation--conceptcomposite_breakdown.html">Composite breakdown</a></td>
-      <td>3</td>
+      <td><a href="disaggregation--obs_status.html">OBS_STATUS</a>, <a href="disaggregation--unit_mult.html">UNIT_MULT</a>, <a href="disaggregation--nature.html">NATURE</a>, <a href="disaggregation--freq.html">FREQ</a>, <a href="disaggregation--reporting_type.html">REPORTING_TYPE</a>, <a href="disaggregation--composite_breakdown.html">COMPOSITE_BREAKDOWN</a></td>
+      <td>6</td>
     </tr>
   </tbody>
 </table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicator-table'] = [{"Indicator":"#1-1-1","Disaggregations":"<a href=\"disaggregation--obs_status.html\">OBS_STATUS<\/a>, <a href=\"disaggregation--unit_mult.html\">UNIT_MULT<\/a>, <a href=\"disaggregation--nature.html\">NATURE<\/a>, <a href=\"disaggregation--freq.html\">FREQ<\/a>, <a href=\"disaggregation--reporting_type.html\">REPORTING_TYPE<\/a>, <a href=\"disaggregation--ref_area.html\">REF_AREA<\/a>","Number of disaggregations":6},{"Indicator":"#1-2-1","Disaggregations":"<a href=\"disaggregation--obs_status.html\">OBS_STATUS<\/a>, <a href=\"disaggregation--unit_mult.html\">UNIT_MULT<\/a>, <a href=\"disaggregation--nature.html\">NATURE<\/a>, <a href=\"disaggregation--freq.html\">FREQ<\/a>, <a href=\"disaggregation--reporting_type.html\">REPORTING_TYPE<\/a>, <a href=\"disaggregation--ref_area.html\">REF_AREA<\/a>, <a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":8},{"Indicator":"#3-5-2-1","Disaggregations":"<a href=\"disaggregation--obs_status.html\">OBS_STATUS<\/a>, <a href=\"disaggregation--unit_mult.html\">UNIT_MULT<\/a>, <a href=\"disaggregation--nature.html\">NATURE<\/a>, <a href=\"disaggregation--freq.html\">FREQ<\/a>, <a href=\"disaggregation--reporting_type.html\">REPORTING_TYPE<\/a>, <a href=\"disaggregation--ref_area.html\">REF_AREA<\/a>, <a href=\"disaggregation--sex.html\">SEX<\/a>","Number of disaggregations":7},{"Indicator":"#9-1-2","Disaggregations":"<a href=\"disaggregation--obs_status.html\">OBS_STATUS<\/a>, <a href=\"disaggregation--unit_mult.html\">UNIT_MULT<\/a>, <a href=\"disaggregation--nature.html\">NATURE<\/a>, <a href=\"disaggregation--freq.html\">FREQ<\/a>, <a href=\"disaggregation--reporting_type.html\">REPORTING_TYPE<\/a>, <a href=\"disaggregation--composite_breakdown.html\">COMPOSITE_BREAKDOWN<\/a>","Number of disaggregations":6}];
+            </script>
+            
         </div>
         
                     </div>
                 </div>
             </div>
-            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha256-dtGH1XcAyKopMui5x20KnPxuGuSx9Rs6piJB/4Oqu6I=" crossorigin="anonymous"></script>
-            <script>$(".tablesorter").tablesorter({
-                theme: 'bootstrap'
-            });</script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
         </html>
         
