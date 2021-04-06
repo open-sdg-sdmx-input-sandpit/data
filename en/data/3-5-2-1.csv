@@ -1,4 +1,4 @@
-Year,Observation status,Unit multiplier,Nature of data points,Frequency of observation,Reporting type,SERIES,Reference area,Sex,UNIT_MEASURE,Value
+Year,Observation status,Unit multiplier,Nature of data points,FREQ,REPORTING_TYPE,SERIES,Reference area,Sex,UNIT_MEASURE,Value
 2010,Normal value,Units,Country Data,Annual,National,Incidence of alcohol dependence per 100 000 people,,,"Per 100,000 population",53.8
 2013,Normal value,Units,Country Data,Annual,National,Incidence of alcohol dependence per 100 000 people,,,"Per 100,000 population",31.2
 2014,Normal value,Units,Country Data,Annual,National,Incidence of alcohol dependence per 100 000 people,,,"Per 100,000 population",27.4

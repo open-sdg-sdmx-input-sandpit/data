@@ -1,4 +1,4 @@
-Year,Observation status,Unit multiplier,Nature of data points,Frequency of observation,Reporting type,SERIES,Reference area,UNIT_MEASURE,Value
+Year,Observation status,Unit multiplier,Nature of data points,FREQ,REPORTING_TYPE,SERIES,Reference area,UNIT_MEASURE,Value
 2007,Normal value,Units,Country Data,Annual,National,Proportion of population below international poverty line,,Percent,0.13
 2008,Normal value,Units,Country Data,Annual,National,Proportion of population below international poverty line,,Percent,0.09
 2009,Normal value,Units,Country Data,Annual,National,Proportion of population below international poverty line,,Percent,0.29

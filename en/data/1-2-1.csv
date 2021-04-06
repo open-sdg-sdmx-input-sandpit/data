@@ -1,4 +1,4 @@
-Year,Observation status,Unit multiplier,Nature of data points,Frequency of observation,Reporting type,SERIES,Reference area,Sex,Age,UNIT_MEASURE,Value
+Year,Observation status,Unit multiplier,Nature of data points,FREQ,REPORTING_TYPE,SERIES,Reference area,Sex,Age,UNIT_MEASURE,Value
 2007,Normal value,Units,Country Data,Annual,National,Proportion of population living below the national poverty line,,,,Percent,35.0
 2008,Normal value,Units,Country Data,Annual,National,Proportion of population living below the national poverty line,,,,Percent,31.7
 2009,Normal value,Units,Country Data,Annual,National,Proportion of population living below the national poverty line,,,,Percent,31.7

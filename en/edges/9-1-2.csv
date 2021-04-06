@@ -1,4 +1,4 @@
 From,To
-Nature of data points,Frequency of observation
-Frequency of observation,Reporting type
-Reporting type,COMPOSITE_BREAKDOWN
+Observation status,Unit multiplier
+Unit multiplier,Nature of data points
+Nature of data points,COMPOSITE_BREAKDOWN

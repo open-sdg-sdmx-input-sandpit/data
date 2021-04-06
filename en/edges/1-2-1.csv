@@ -1,6 +1,6 @@
 From,To
-Nature of data points,Frequency of observation
-Frequency of observation,Reporting type
-Reporting type,Reference area
-Reporting type,Sex
-Reporting type,Age
+Observation status,Unit multiplier
+Unit multiplier,Nature of data points
+Nature of data points,Reference area
+Nature of data points,Sex
+Nature of data points,Age
