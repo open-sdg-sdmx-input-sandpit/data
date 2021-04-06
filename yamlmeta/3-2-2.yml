@@ -1,6 +1,11 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: 'Rate per 1,000 live births'
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  Due to the small number of stillbirths in socio-economic category 8, the
+  totals for categories 7 and 8 have been combined to protect confidentiality.
+  Due to the small number of events, the reliability of rates which are based on
+  between 3 and 19 deaths may be affected.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +21,16 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-2-2-title
+graph_title: Neonatal mortality rate
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-2-2-title
 indicator_number: 3.2.2
-national_geographical_coverage: ''
+national_geographical_coverage: United Kingdom
 page_content: ''
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

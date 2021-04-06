@@ -1,4 +1,5 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -16,11 +17,19 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.2-5-2-title
+graph_title: Percentage of local breeds classified as being at risk
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.2-5-2-title
 indicator_number: 2.5.2
-national_geographical_coverage: ''
-page_content: ''
+national_geographical_coverage: United Kingdom
+page_content: >
+  This indicator is being used as an approximation of the UN SDG Indicator and
+  has been identified in collaboration with topic experts. We will work to
+  identify or develop UK data to meet the global indicator specification. 
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

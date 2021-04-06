@@ -1,4 +1,5 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: GBP (£)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -12,15 +13,22 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - Sex
+  - Indigineous Status
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.2-3-2-title
+graph_title: Average weekly gross earnings of food producers by sex
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.2-3-2-title
 indicator_number: 2.3.2
-national_geographical_coverage: ''
+national_geographical_coverage: United Kingdom
 page_content: ''
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

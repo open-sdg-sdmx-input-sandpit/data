@@ -1,6 +1,13 @@
+﻿composite_breakdown_label: ''
 computation_units: ''
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  1. Underlying cause of death was defined using the International
+  Classification of Diseases, Tenth Revision (ICD-10) codes X30 to X39. 2.
+  Figures are for persons usually resident in England and Wales, based on
+  boundaries as of February 2020. 3. Figures are based on deaths registered,
+  rather than deaths occurring between 2001 and 2018.  Figures only include
+  deaths that were registered by 31 Dec 2018.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +23,18 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-5-1-title
+graph_title: >-
+  Deaths from exposure to natural forces per 100,000 population and number of
+  deaths.
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.1-5-1-title
 indicator_number: 1.5.1
-national_geographical_coverage: ''
+national_geographical_coverage: England and Wales
 page_content: ''
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

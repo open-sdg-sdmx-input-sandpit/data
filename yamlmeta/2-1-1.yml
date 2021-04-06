@@ -1,6 +1,11 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: Calories per day (kcal/day)
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  Data is available as a combined figure from two survey years.  Each survey
+  year spans two calendar years.  The year shown on the x-axis refers to the
+  middle year from the combined survey years.  I.e. for year 2015 on the x axis,
+  data is combined from both the 2014/15 and the 2015/16 survey years.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +21,24 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.2-1-1-title
+graph_title: Median total energy intake
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.2-1-1-title
 indicator_number: 2.1.1
-national_geographical_coverage: ''
-page_content: ''
+national_geographical_coverage: UK
+page_content: >-
+  The Food and Agriculture Organization of the United Nations (FAO) presents
+  modelled data for the UK relating to this indicator, and states the prevalance
+  of undernourishment in the UK as <2.5% between 2000 and 2016. 
+
+
+  This indicator is being used as an approximation of the UN SDG Indicator and
+  has not been identified in collaboration with topic experts. We will work to
+  identify or develop UK data to meet the global indicator specification.
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

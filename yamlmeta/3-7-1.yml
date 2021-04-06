@@ -1,6 +1,14 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: Percentage (%)
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  1. The data collection period runs from April to March.  The date on the X
+  axis is the start of this period. 2. Other contraception methods include the
+  cap, diaphragm, spermicides (but only when used on their own) and vaginal
+  ring. 3. Data for 2018/19 includes female condoms in other methods. 4. Data
+  for Rutland have been combined with Leicestershire. 5. Data for City of London
+  have been combined with Hackney. 6. Data for Isles of Scilly have been
+  combined with Cornwall.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +24,22 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-7-1-title
+graph_title: >-
+  Main method of contraception of women using Sexual and Reproductive Health
+  Services for reasons of contraception
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-7-1-title
 indicator_number: 3.7.1
-national_geographical_coverage: ''
-page_content: ''
+national_geographical_coverage: England
+page_content: >-
+  A woman contacting a service multiple times during the year will only be
+  counted once. For details of the methodology used for the choice of contacted
+  see appendix C of the [Sexual and Reproductive Health Services
+  Report](https://files.digital.nhs.uk/B5/D36A42/srh-serv-eng-18-19-app.pdf).
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

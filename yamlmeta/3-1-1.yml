@@ -1,6 +1,9 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: 'Rate per 100,000 maternities'
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  Please note, disaggregation by ethnicity and IMD quintile is only available
+  for England.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +19,33 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-1-1-title
+graph_title: 'Maternal mortality per 100,000 maternities'
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-1-1-title
 indicator_number: 3.1.1
-national_geographical_coverage: ''
-page_content: ''
+national_geographical_coverage: UK
+page_content: >-
+  Maternal mortality in the UK is measured as a rate per 100,000 maternities
+  (defined as women who give birth to a live infant or a stillborn infant at 24
+  weeks or greater gestation), and *not* a ratio per 100,000 live births, in
+  order to provide a closer approximation of the risk associated with
+  pregnancy. 
+
+
+  Maternal deaths are identified through a variety of sources by the MBRRACE-UK
+  collaboration at the NPEU, University of Oxford. Further details of
+  ascertainment methods, additional disaggregations, details of causes of death
+  and recommendations for improving care can be found in the [MBRRACE-UK Saving
+  Lives, Improving Mothers’ Care
+  reports](https://www.npeu.ox.ac.uk/mbrrace-uk/reports).
+
+
+  The maternal mortality ratio for the UK, following the UN specification, can
+  also be found in the MBRRACE-UK reports using the link above.
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

@@ -1,4 +1,5 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -16,11 +17,24 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-2-2-title
+graph_title: >-
+  Percentage of the population living in households at risk of persistent
+  poverty
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.1-2-2-title
 indicator_number: 1.2.2
-national_geographical_coverage: ''
-page_content: ''
+national_geographical_coverage: United Kingdom
+page_content: >
+  "Percentage of the population living in households persistently at risk of
+  poverty" data from EU-Statistics on Income and Living Conditions (EU-SILC) is
+  being used for international comparability. For the main UK data series on
+  persistent low income households see the [Income
+  Dynamics](https://www.gov.uk/government/statistics/income-dynamics-experimental)
+  experimental statistics.
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

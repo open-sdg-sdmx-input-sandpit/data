@@ -1,6 +1,13 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: 'Rate per 10,000 population'
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  The period April to June is being used to report annual data. Note that some
+  of the totals will not sum to 100% due to incomplete source data. Where the
+  sample size was too small to make a reliable estimate, figures have been
+  removed. Please note, the aggregate value for 'Occupation Category - Health
+  Professionals' also includes veterinarians, although these have not been
+  included as a subcategory.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +23,16 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-c-1-title
+graph_title: 'Density of health professionals per 10,000 persons'
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-c-1-title
 indicator_number: 3.c.1
-national_geographical_coverage: ''
+national_geographical_coverage: United Kingdom
 page_content: ''
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []
