@@ -1,6 +1,11 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: 'Rate per 100,000 population'
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  Rates calculated when there were fewer than 3 death registrations in a cell
+  have been surpressed. Rates that are based on between 3 and 19 deaths are
+  potentially unreliable, as the measure may be affected by the small number of
+  events. These can be seen in the original source data.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +21,16 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-9-3-title
+graph_title: Mortality rate attributed to unintentional poisoning
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-9-3-title
 indicator_number: 3.9.3
-national_geographical_coverage: ''
+national_geographical_coverage: England and Wales
 page_content: ''
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

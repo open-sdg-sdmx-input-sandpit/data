@@ -1,6 +1,10 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: Number of cases
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  Headline figures include number of reported cases of Dengue Fever and
+  Chikungunya for England, Wales and Northern Ireland only. UK figures for
+  Rabies can be seen when selected from the Type of NTD field.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +20,25 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-3-5-title
+graph_title: Number of people requiring interventions against neglected tropical diseases
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-3-5-title
 indicator_number: 3.3.5
-national_geographical_coverage: ''
-page_content: ''
+national_geographical_coverage: United Kingdom
+page_content: >-
+  Please note - The majority of cases of Neglected Tropical Diseases (NTD's) in
+  the UK are imported cases from outside of the UK, and caution needs to be
+  applied when interpreting the data. There are a number of factors that play a
+  role in influencing infection, and treatment usually occurs in the UK and not
+  the country of origin. More information on neglected tropical diseases in the
+  UK can be seen in the following guidance pages - [Dengue
+  fever](https://www.gov.uk/government/collections/dengue-fever-guidance-data-and-analysis),
+  [Chikungunya](https://www.gov.uk/guidance/chikungunya),
+  [Rabies](https://www.gov.uk/guidance/rabies-epidemiology-transmission-and-prevention).
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

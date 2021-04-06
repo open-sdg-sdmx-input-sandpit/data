@@ -1,6 +1,10 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: Percentage (%)
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  Please note that figures representing unemployed females in 2018 were
+  calculated based on responses from a sample size smaller than 50 so are
+  potentially unreliable.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +20,18 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.2-1-2-title
+graph_title: >-
+  Estimated prevalence of low and very low food security in England, Wales and
+  Northern Ireland
 graph_titles: []
-graph_type: line
+graph_type: bar
 indicator_name: global_indicators.2-1-2-title
 indicator_number: 2.1.2
-national_geographical_coverage: ''
+national_geographical_coverage: 'England, Wales and Northern Ireland'
 page_content: ''
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

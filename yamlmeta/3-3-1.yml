@@ -1,4 +1,5 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: 'Rate per 100,000 population'
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -12,15 +13,30 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - Sex
+  - Age
+  - Key populations
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-3-1-title
+graph_title: 'Rate of newly diagnosed HIV infections per 100,000 population'
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-3-1-title
 indicator_number: 3.3.1
-national_geographical_coverage: ''
-page_content: ''
+national_geographical_coverage: United Kingdom
+page_content: >-
+  These data present information on the rate (per 100,000 population) of people
+  newly diagnosed with HIV in the UK by year of diagnosis, country of residence
+  and demographic characteristics. Due to the relatively low incidence of HIV in
+  the UK, a rate per 100,000 population is used rather than the UN specified
+  rate per 1,000 population. Since the duration between HIV infection and
+  diagnosis is often unknown, new diagnoses cannot be used as a direct measure
+  of HIV incidence.
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

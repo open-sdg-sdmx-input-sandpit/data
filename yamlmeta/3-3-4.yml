@@ -1,6 +1,10 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: 'Rate per 100,000 population'
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  Every effort is made to ensure accuracy and completeness of the data. At a
+  national level, data are ‘de-duplicated’ to prevent double counting of the
+  same individual.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +20,16 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-3-4-title
+graph_title: Incidence of Hepatitis B
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-3-4-title
 indicator_number: 3.3.4
-national_geographical_coverage: ''
+national_geographical_coverage: England
 page_content: ''
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

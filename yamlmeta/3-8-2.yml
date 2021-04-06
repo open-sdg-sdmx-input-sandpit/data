@@ -1,6 +1,10 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: GBP (£)
 copyright: ''
-data_footnote: ''
+data_footnote: >-
+  Some figures for expenditure by age should be used with extra caution because
+  they are based on fewer than 20 reporting households - these figures are
+  specified in source 1. Data are shown in financial years.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -16,11 +20,16 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-8-2-title
+graph_title: Average weekly household expenditure on health
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.3-8-2-title
 indicator_number: 3.8.2
-national_geographical_coverage: ''
+national_geographical_coverage: United Kingdom
 page_content: ''
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []

@@ -1,4 +1,5 @@
-computation_units: ''
+﻿composite_breakdown_label: ''
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -12,15 +13,30 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - Sex
+  - Type of tenure
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-4-2-title
+graph_title: >-
+  Percentage of people who feel their tenure is secure and have legal
+  documentation
 graph_titles: []
-graph_type: line
+graph_type: bar
 indicator_name: global_indicators.1-4-2-title
 indicator_number: 1.4.2
-national_geographical_coverage: ''
-page_content: ''
+national_geographical_coverage: United Kingdom
+page_content: >-
+  The data source for this indicator; the Prindex survey, used a sample size of
+  1,000 in the United Kingdom. This small sample size limits the reliability of
+  the data and restricts our ability to produce detailed further breakdowns of
+  the data. We are exploring how to further develop our reporting of this
+  indicator with stakeholders from the Department for International Development
+  and the Ministry for Housing, Communities and Local Government.
+permalink: ''
+precision: []
+reporting_status: complete
+sort: ''
+standalone: false
 tags: []
